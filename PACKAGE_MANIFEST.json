@@ -1,0 +1,83 @@
+{
+  "copied_files": [
+    "oracle.py",
+    "signals.py",
+    "hazard_memory.py",
+    "fragility.py",
+    "event_forensics.py",
+    "motif_engine.py",
+    "motif_harness.py",
+    "backtest.py",
+    "run.py",
+    "fetcher.py",
+    "frankenoracle_full_handoff_new_chat.md",
+    "frankenoracle_detailed_report_for_claude.md",
+    "claude_task8_event_audit_and_grounding_ladder.md",
+    "frankenoracle_task9_task10_internal_report.md",
+    "frankenoracle_step11_action_surface_falsification.md",
+    "claude_prompt_step11_action_surface_falsification.md",
+    "claude_prompt_step12_hazard_manifold_widening.md",
+    "event_independence_audit.json",
+    "event_independence_audit.md",
+    "late_regime_grounding_ladder.json",
+    "late_regime_grounding_ladder.md",
+    "step11_action_surface.json",
+    "step11_action_surface.md",
+    "real_smoke_test_summary.md",
+    "real_event_summary.json",
+    "fragility_ablation_pure_off.json",
+    "seed_sweep.json",
+    "prefix_prediction.json",
+    "prefix_prediction_by_motif.json",
+    "btc_candles_5m (1).csv",
+    "btc_funding_rate (1).csv",
+    "btc_open_interest_1h (1).csv"
+  ],
+  "missing_files": [],
+  "structure": {
+    "src": [
+      "backtest.py",
+      "event_forensics.py",
+      "fetcher.py",
+      "fragility.py",
+      "hazard_memory.py",
+      "motif_engine.py",
+      "motif_harness.py",
+      "oracle.py",
+      "run.py",
+      "signals.py"
+    ],
+    "docs/handoff": [
+      "claude_task8_event_audit_and_grounding_ladder.md",
+      "frankenoracle_detailed_report_for_claude.md",
+      "frankenoracle_full_handoff_new_chat.md"
+    ],
+    "docs/analysis": [
+      "frankenoracle_step11_action_surface_falsification.md",
+      "frankenoracle_task9_task10_internal_report.md"
+    ],
+    "prompts": [
+      "step11_action_surface_falsification.md",
+      "step12_hazard_manifold_widening.md"
+    ],
+    "data": [
+      "btc_candles_5m.csv",
+      "btc_funding_rate.csv",
+      "btc_open_interest_1h.csv"
+    ],
+    "results": [
+      "event_independence_audit.json",
+      "event_independence_audit.md",
+      "fragility_ablation_pure_off.json",
+      "late_regime_grounding_ladder.json",
+      "late_regime_grounding_ladder.md",
+      "prefix_prediction.json",
+      "prefix_prediction_by_motif.json",
+      "real_event_summary.json",
+      "real_smoke_test_summary.md",
+      "seed_sweep.json",
+      "step11_action_surface.json",
+      "step11_action_surface.md"
+    ]
+  }
+}

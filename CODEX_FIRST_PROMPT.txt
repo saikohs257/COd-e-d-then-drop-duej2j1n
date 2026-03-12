@@ -1,0 +1,6 @@
+Read these first in order:
+1. docs/handoff/frankenoracle_full_handoff_new_chat.md
+2. docs/handoff/frankenoracle_detailed_report_for_claude.md
+3. prompts/step12_hazard_manifold_widening.md
+
+Then run Step 12 exactly as specified. Do not redesign the architecture.
