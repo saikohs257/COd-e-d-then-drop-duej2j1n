@@ -1,0 +1,151 @@
+{
+  "event_definition": {
+    "threshold": -5.0,
+    "lookback_bars": 288,
+    "min_gap_bars": 576
+  },
+  "n_events": 76,
+  "oracle_pass": "Pass 2 (Drawdown+VolRegime)",
+  "candidates": {
+    "Current": {
+      "name": "Current",
+      "cfg": {
+        "mid": 0.446,
+        "steep": 10,
+        "dz": 0.1,
+        "fl": 0.3
+      },
+      "detection_rate": 0.211,
+      "mean_exp_t0": 0.377,
+      "mean_exp_pre24h": 0.367,
+      "mean_persistence": 18.1,
+      "mean_lead_h": 22.6,
+      "pct_detected_early": 0.237,
+      "active_occ_pct": 25.2,
+      "half_on_pct": 78.2,
+      "decisive_pct": 0.0,
+      "active_off_evt_pct": 22.1,
+      "half_on_off_evt_pct": 66.7,
+      "fa_episodes": 58,
+      "fp_h_per_30d": 159.4,
+      "mean_exp_later": 0.331,
+      "haz_mean_at_events": 0.295,
+      "haz_mean_off_events": 0.274,
+      "haz_p75_later": 0.294,
+      "motifs": {
+        "occupied_danger_plateau": 70,
+        "transition_false_alarm": 5,
+        "recirculating_instability": 1
+      },
+      "tfa_pct": 6.6,
+      "structural_pct": 93.4
+    },
+    "Cand_A": {
+      "name": "Cand_A",
+      "cfg": {
+        "mid": 0.32,
+        "steep": 12,
+        "dz": 0.18,
+        "fl": 0.3
+      },
+      "detection_rate": 0.355,
+      "mean_exp_t0": 0.373,
+      "mean_exp_pre24h": 0.363,
+      "mean_persistence": 27.9,
+      "mean_lead_h": 21.3,
+      "pct_detected_early": 0.342,
+      "active_occ_pct": 30.1,
+      "half_on_pct": 80.7,
+      "decisive_pct": 0.0,
+      "active_off_evt_pct": 25.7,
+      "half_on_off_evt_pct": 68.9,
+      "fa_episodes": 104,
+      "fp_h_per_30d": 184.9,
+      "mean_exp_later": 0.328,
+      "haz_mean_at_events": 0.295,
+      "haz_mean_off_events": 0.274,
+      "haz_p75_later": 0.294,
+      "motifs": {
+        "occupied_danger_plateau": 70,
+        "transition_false_alarm": 5,
+        "recirculating_instability": 1
+      },
+      "tfa_pct": 6.6,
+      "structural_pct": 93.4
+    },
+    "Cand_B": {
+      "name": "Cand_B",
+      "cfg": {
+        "mid": 0.3,
+        "steep": 14,
+        "dz": 0.16,
+        "fl": 0.3
+      },
+      "detection_rate": 0.5,
+      "mean_exp_t0": 0.365,
+      "mean_exp_pre24h": 0.356,
+      "mean_persistence": 39.8,
+      "mean_lead_h": 21.3,
+      "pct_detected_early": 0.5,
+      "active_occ_pct": 40.0,
+      "half_on_pct": 88.3,
+      "decisive_pct": 0.1,
+      "active_off_evt_pct": 34.0,
+      "half_on_off_evt_pct": 75.9,
+      "fa_episodes": 157,
+      "fp_h_per_30d": 244.7,
+      "mean_exp_later": 0.324,
+      "haz_mean_at_events": 0.295,
+      "haz_mean_off_events": 0.274,
+      "haz_p75_later": 0.294,
+      "motifs": {
+        "occupied_danger_plateau": 70,
+        "transition_false_alarm": 5,
+        "recirculating_instability": 1
+      },
+      "tfa_pct": 6.6,
+      "structural_pct": 93.4
+    },
+    "Cand_C": {
+      "name": "Cand_C",
+      "cfg": {
+        "mid": 0.28,
+        "steep": 16,
+        "dz": 0.14,
+        "fl": 0.3
+      },
+      "detection_rate": 0.789,
+      "mean_exp_t0": 0.351,
+      "mean_exp_pre24h": 0.344,
+      "mean_persistence": 60.3,
+      "mean_lead_h": 21.8,
+      "pct_detected_early": 0.737,
+      "active_occ_pct": 62.7,
+      "half_on_pct": 95.0,
+      "decisive_pct": 0.6,
+      "active_off_evt_pct": 52.8,
+      "half_on_off_evt_pct": 82.3,
+      "fa_episodes": 194,
+      "fp_h_per_30d": 380.3,
+      "mean_exp_later": 0.315,
+      "haz_mean_at_events": 0.295,
+      "haz_mean_off_events": 0.274,
+      "haz_p75_later": 0.294,
+      "motifs": {
+        "occupied_danger_plateau": 71,
+        "transition_false_alarm": 5
+      },
+      "tfa_pct": 6.6,
+      "structural_pct": 93.4
+    }
+  },
+  "verdict": {
+    "outcome": "PARTIAL CONFIRMATION \u2014 curve is part of the problem but not the whole problem",
+    "b_lowers_t0": true,
+    "b_lowers_pre": true,
+    "b_reduces_half": false,
+    "b_preserves_struct": true,
+    "b_doesnt_explode": true,
+    "motif_divergence": false
+  }
+}

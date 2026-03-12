@@ -1,0 +1,238 @@
+{
+  "data_range": {
+    "from": "2025-12-11",
+    "to": "2026-03-11",
+    "days": 91
+  },
+  "oracle_status": "partial \u2014 L2 grounded (vol+momentum+funding), L1 stubbed (no onchain/macro)",
+  "counts": {
+    "candles": 26149,
+    "oi_bars": 2180,
+    "funding": 273,
+    "crash_events": 17
+  },
+  "fragility": {
+    "mean": 0.2027,
+    "std": 0.2226,
+    "max": 0.7483,
+    "min": 0.0
+  },
+  "adversary": {
+    "detection_rate": 0.5294,
+    "mean_lead_hours": 0.0,
+    "mean_persistence": 3.94,
+    "false_pos_per_event": 0.0
+  },
+  "motif_distribution": {
+    "quiet_loading_release": 7,
+    "transition_false_alarm": 4,
+    "recirculating_instability": 5,
+    "occupied_danger_plateau": 1
+  },
+  "events": [
+    {
+      "date": "2025-12-15",
+      "drawdown_pct": -5.08,
+      "motif": "quiet_loading_release",
+      "confidence": 0.375,
+      "fragility_t0": 0.583,
+      "fragility_peak_pre24h": 0.6,
+      "haircut_t0": 0.904,
+      "persist_bars": 5,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2025-12-17",
+      "drawdown_pct": -5.11,
+      "motif": "quiet_loading_release",
+      "confidence": 0.375,
+      "fragility_t0": 0.0,
+      "fragility_peak_pre24h": 0.25,
+      "haircut_t0": 0.883,
+      "persist_bars": 6,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2025-12-18",
+      "drawdown_pct": -5.2,
+      "motif": "quiet_loading_release",
+      "confidence": 0.25,
+      "fragility_t0": 0.045,
+      "fragility_peak_pre24h": 0.219,
+      "haircut_t0": 0.969,
+      "persist_bars": 6,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2026-01-20",
+      "drawdown_pct": -5.01,
+      "motif": "quiet_loading_release",
+      "confidence": 0.625,
+      "fragility_t0": 0.734,
+      "fragility_peak_pre24h": 0.748,
+      "haircut_t0": 0.947,
+      "persist_bars": 15,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2026-01-29",
+      "drawdown_pct": -5.69,
+      "motif": "quiet_loading_release",
+      "confidence": 0.25,
+      "fragility_t0": 0.542,
+      "fragility_peak_pre24h": 0.639,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    },
+    {
+      "date": "2026-01-31",
+      "drawdown_pct": -5.15,
+      "motif": "transition_false_alarm",
+      "confidence": 0.625,
+      "fragility_t0": 0.083,
+      "fragility_peak_pre24h": 0.183,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    },
+    {
+      "date": "2026-02-02",
+      "drawdown_pct": -5.16,
+      "motif": "quiet_loading_release",
+      "confidence": 0.375,
+      "fragility_t0": 0.0,
+      "fragility_peak_pre24h": 0.0,
+      "haircut_t0": 0.942,
+      "persist_bars": 8,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2026-02-03",
+      "drawdown_pct": -5.11,
+      "motif": "transition_false_alarm",
+      "confidence": 0.55,
+      "fragility_t0": 0.0,
+      "fragility_peak_pre24h": 0.0,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    },
+    {
+      "date": "2026-02-04",
+      "drawdown_pct": -5.78,
+      "motif": "recirculating_instability",
+      "confidence": 0.375,
+      "fragility_t0": 0.0,
+      "fragility_peak_pre24h": 0.45,
+      "haircut_t0": 0.962,
+      "persist_bars": 3,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2026-02-05",
+      "drawdown_pct": -9.77,
+      "motif": "recirculating_instability",
+      "confidence": 0.45,
+      "fragility_t0": 0.6,
+      "fragility_peak_pre24h": 0.6,
+      "haircut_t0": 0.902,
+      "persist_bars": 5,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2026-02-07",
+      "drawdown_pct": -5.18,
+      "motif": "occupied_danger_plateau",
+      "confidence": 0.55,
+      "fragility_t0": 0.0,
+      "fragility_peak_pre24h": 0.388,
+      "haircut_t0": 0.972,
+      "persist_bars": 14,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2026-02-11",
+      "drawdown_pct": -5.69,
+      "motif": "quiet_loading_release",
+      "confidence": 0.375,
+      "fragility_t0": 0.6,
+      "fragility_peak_pre24h": 0.6,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    },
+    {
+      "date": "2026-02-23",
+      "drawdown_pct": -5.25,
+      "motif": "recirculating_instability",
+      "confidence": 0.375,
+      "fragility_t0": 0.056,
+      "fragility_peak_pre24h": 0.339,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    },
+    {
+      "date": "2026-02-24",
+      "drawdown_pct": -5.23,
+      "motif": "recirculating_instability",
+      "confidence": 0.45,
+      "fragility_t0": 0.604,
+      "fragility_peak_pre24h": 0.653,
+      "haircut_t0": 0.968,
+      "persist_bars": 5,
+      "lead_hours": null,
+      "active": true
+    },
+    {
+      "date": "2026-02-28",
+      "drawdown_pct": -5.09,
+      "motif": "transition_false_alarm",
+      "confidence": 0.375,
+      "fragility_t0": 0.0,
+      "fragility_peak_pre24h": 0.0,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    },
+    {
+      "date": "2026-03-03",
+      "drawdown_pct": -5.12,
+      "motif": "recirculating_instability",
+      "confidence": 0.625,
+      "fragility_t0": 0.207,
+      "fragility_peak_pre24h": 0.602,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    },
+    {
+      "date": "2026-03-06",
+      "drawdown_pct": -5.56,
+      "motif": "transition_false_alarm",
+      "confidence": 0.625,
+      "fragility_t0": 0.064,
+      "fragility_peak_pre24h": 0.233,
+      "haircut_t0": 1.0,
+      "persist_bars": 0,
+      "lead_hours": null,
+      "active": false
+    }
+  ]
+}

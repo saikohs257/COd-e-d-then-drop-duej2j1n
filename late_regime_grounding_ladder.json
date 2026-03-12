@@ -1,0 +1,121 @@
+{
+  "event_definition": "Var1(-5%,24h,48h)",
+  "n_events": 76,
+  "adversary_recalibration": {
+    "mid": 0.446,
+    "dead_zone": 0.1,
+    "floor": 0.3,
+    "detect_thresh": 0.9,
+    "note": "sigmoid mid shifted from 0.50 to 0.446 to match oracle compressed hazard range (mean=0.277, max=0.343)"
+  },
+  "results": [
+    {
+      "label": "Pass0/V0",
+      "pass": 0,
+      "n_events": 76,
+      "detection_rate": 0.25,
+      "mean_exp_t0": 0.336,
+      "mean_exp_pre24h": 0.336,
+      "mean_persistence": 18.8,
+      "fp_bars": 10734,
+      "fp_per_event": 141.2
+    },
+    {
+      "label": "Pass0/V1",
+      "pass": 0,
+      "n_events": 76,
+      "detection_rate": 0.25,
+      "mean_exp_t0": 0.336,
+      "mean_exp_pre24h": 0.336,
+      "mean_persistence": 18.8,
+      "fp_bars": 10727,
+      "fp_per_event": 141.1
+    },
+    {
+      "label": "Pass0/V1+Frag",
+      "pass": 0,
+      "n_events": 76,
+      "detection_rate": 0.434,
+      "mean_exp_t0": 0.331,
+      "mean_exp_pre24h": 0.33,
+      "mean_persistence": 33.5,
+      "fp_bars": 75116,
+      "fp_per_event": 988.4
+    },
+    {
+      "label": "Pass1/V0",
+      "pass": 1,
+      "n_events": 76,
+      "detection_rate": 0.434,
+      "mean_exp_t0": 0.375,
+      "mean_exp_pre24h": 0.356,
+      "mean_persistence": 36.8,
+      "fp_bars": 34824,
+      "fp_per_event": 458.2
+    },
+    {
+      "label": "Pass1/V1",
+      "pass": 1,
+      "n_events": 76,
+      "detection_rate": 0.434,
+      "mean_exp_t0": 0.375,
+      "mean_exp_pre24h": 0.356,
+      "mean_persistence": 37.0,
+      "fp_bars": 34817,
+      "fp_per_event": 458.1
+    },
+    {
+      "label": "Pass1/V1+Frag",
+      "pass": 1,
+      "n_events": 76,
+      "detection_rate": 0.605,
+      "mean_exp_t0": 0.371,
+      "mean_exp_pre24h": 0.352,
+      "mean_persistence": 49.5,
+      "fp_bars": 92409,
+      "fp_per_event": 1215.9
+    },
+    {
+      "label": "Pass2/V0",
+      "pass": 2,
+      "n_events": 76,
+      "detection_rate": 0.421,
+      "mean_exp_t0": 0.369,
+      "mean_exp_pre24h": 0.359,
+      "mean_persistence": 31.5,
+      "fp_bars": 29631,
+      "fp_per_event": 389.9
+    },
+    {
+      "label": "Pass2/V1",
+      "pass": 2,
+      "n_events": 76,
+      "detection_rate": 0.434,
+      "mean_exp_t0": 0.369,
+      "mean_exp_pre24h": 0.359,
+      "mean_persistence": 31.5,
+      "fp_bars": 29619,
+      "fp_per_event": 389.7
+    },
+    {
+      "label": "Pass2/V1+Frag",
+      "pass": 2,
+      "n_events": 76,
+      "detection_rate": 0.618,
+      "mean_exp_t0": 0.364,
+      "mean_exp_pre24h": 0.354,
+      "mean_persistence": 45.4,
+      "fp_bars": 90765,
+      "fp_per_event": 1194.3
+    }
+  ],
+  "verdict": {
+    "drawdown_helped": true,
+    "vol_regime_helped": true,
+    "gap_closed_vs_v0": true
+  },
+  "funding_overlap": {
+    "correlation": 0.032,
+    "verdict": "LOW"
+  }
+}
